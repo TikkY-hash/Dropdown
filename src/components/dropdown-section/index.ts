@@ -1,2 +1,2 @@
-import DropdownSection from "./dropdown-section";
+import DropdownSection from "./drop-down-section";
 export default DropdownSection

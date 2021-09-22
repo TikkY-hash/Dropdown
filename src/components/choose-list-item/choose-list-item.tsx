@@ -7,7 +7,11 @@ const ChooseListItem : FC<IDropListItemType> = ({languageList,onDeleteLanguage})
     return (
         <div className={styles.choose__item_style}>
             <h1>{languageList.language}</h1>
-            <img src = {close} width={12} height={12} onClick={() => onDeleteLanguage()}/>
+            <img
+                src = {close} width={12} height={12}
+                onClick={() => onDeleteLanguage()}
+                alt = "close"
+            />
         </div>
     );
 };

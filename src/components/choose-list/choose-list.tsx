@@ -1,4 +1,4 @@
-import React, {FC, useCallback} from 'react';
+import React, {FC} from 'react';
 import styles from './choose-list.module.css'
 import {IDropMenuPropsType} from "../../types/drop-menu-props-type";
 import ChooseListItem from "../choose-list-item";
