@@ -1,0 +1,12 @@
+.language__list {
+    padding-left: 0;
+}
+
+.language__list li{
+    border-bottom: solid 1px #F4F4F4;
+    list-style: none;
+}
+
+.language__list li:last-child {
+    border: none;
+}

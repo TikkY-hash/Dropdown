@@ -1,0 +1,51 @@
+.list__position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 18px;
+}
+
+.language__information {
+    display: flex;
+    align-items: center;
+}
+
+.language__information h1 {
+    font-family: TT Norms Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.language__information img {
+    margin-top: 20%;
+}
+
+.language__information div {
+    margin-right: 10px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.fake{
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 2px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+    background: no-repeat center;
+    transition: 0.5s;
+}
+
+.checkbox:checked + .fake {
+    transition: 0.5s;
+    background: #005FFD no-repeat center;
+    border: 2px solid #0049D9;
+}

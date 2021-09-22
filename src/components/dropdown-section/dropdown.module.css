@@ -1,0 +1,32 @@
+.wrapper {
+    margin-top: 14px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 1px solid #C1C1C1;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.active__wrapper {
+    flex-wrap: wrap;
+}
+
+
+.drop__choose {
+    font-family: TT Norms Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C1C1C1;
+}
+
+.drop__svg {
+    margin-top: 7px;
+    cursor: pointer;
+}

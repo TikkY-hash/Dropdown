@@ -1,0 +1,23 @@
+.choose__item_style {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 15px 0px 12px;
+    max-width: 112px;
+    background: #F4F4F4;
+    border-radius: 10px;
+    margin-right: 4px;
+}
+
+.choose__item_style h1 {
+    font-family: TT Norms Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.choose__item_style img {
+    cursor: pointer;
+    margin-left: 10px;
+}

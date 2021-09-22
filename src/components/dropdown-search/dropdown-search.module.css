@@ -1,0 +1,29 @@
+.wrapper__menu {
+    margin-top: 16px;
+}
+
+.wrapper__menu input {
+    width: 100%;
+    max-width: 360px;
+    height: 40px;
+    background: #F4F4F4 no-repeat 12px 12px;
+    border-radius: 10px;
+    margin: 16px 16px 0px 16px;
+    background-size: 14px 14px;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    font-family: Helvetica, 'FontAwesome', sans-serif;
+    padding-left: 12px;
+
+}::placeholder {
+     font-style: normal;
+     font-family: TT Norms Pro,"FontAwesome";
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 20px;
+     margin-top: 10px;
+     padding-left: 20px;
+     display: flex;
+ }
